@@ -1,5 +1,7 @@
 {
     "name": "ddata/user-album",
+    "description": "Laravel package for uploading users photos",
+    "license": "MIT License (MIT)",
     "description": "",
     "authors": [
         {
@@ -13,6 +15,29 @@
         "intervention/image": "dev-master",
         "ddata/user-manager": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/vodiahco/laravel-user-album.git"
+        }
+    ],
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "laravel package",
+        "user",
+        "album",
+        "photo",
+        "upload"
+    ],
+    "homepage": "https://github.com/vodiahco/laravel-user-album",
+    "authors": [
+        {
+            "name": "Victor Odiah",
+            "email": "vodiahco1@gmail.com",
+            "homepage": "http://codewater.wordpress.com"
+        }
+    ],
     "autoload": {
         "classmap": [
             "src/migrations",
